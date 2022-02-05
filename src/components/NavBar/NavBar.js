@@ -1,4 +1,5 @@
 import './NavBar.css'
+import CartWidget from '../../CartWidget/CartWidget'
 
 const NavBar = () => {
 
@@ -15,6 +16,7 @@ const NavBar = () => {
                     <li className ='menu'><a href="#"className = 'a'>Contacto</a></li>
             </ul>
             </div>
+            <CartWidget /> 
         </nav>
     )
 }
