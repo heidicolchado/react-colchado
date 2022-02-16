@@ -1,7 +1,7 @@
 
 const Item = ( { nombre, imagen }) => {
     console.log(imagen)
-    return ( <li> <img src = { imagen }> </img> {nombre}</li>)
+    return  ( <li> <img src =  {imagen} alt = "productos" /></li>)
     
 }
 
